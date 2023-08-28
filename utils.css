@@ -1,0 +1,47 @@
+.container {
+    max-width: 1536px;
+    margin-inline: auto;
+    padding-inline: auto;
+}
+
+/* 2XL */
+@media (max-width: 1536px){
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* XL */
+@media (max-width: 1280px){
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* LG */
+@media (max-width: 1024px){
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* MD */
+@media (max-width: 768px){
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* SM */
+@media (max-width: 640px){
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* XS */
+@media (max-width: 475px){
+    .container {
+        width: 100%;
+    }
+}
